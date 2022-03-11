@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project3</title>
+     <link rel="stylesheet" href="CSS/P-style.css" title="original" type="text/css" />
+  </head>
+  <body>
+    <script src="JS/script.js" defer></script> 
+    <audio id="sound1">
+    <source src="Media/startgame.wav" type="audio/wave">
+    </audio> 
+    <audio id="Media/sound2">
+    <source src ="win.wav" type="audio/wav">
+    </audio>
+    <header class = "h1"> Virtual Dice Game </header>
+     <section class = "buttonbox">
+     <button id ="start">START GAME</button>
+     <button id = "play" >PLAY AGAIN</button>
+     <button id = "end">END GAME</button>
+    </section>
+    <section class = "borderbox">
+    
+      <div id ="dicebox1"><img class="img1" src="Images/dice1.png" alt= "image of 1 die" height = "112" width = "112"> </div>
+      <div id ="dicebox2"><img class="img2" src="Images/dice2.png" alt= "image of 2 die" height = "112" width = "112"> </div>
+      <div id ="dicebox3"><img class="img3"
+      src="Images/dice4.png" alt= "image of 3 die" height = "112" width = "112"></div>
+      <div id ="dicebox4"><img class="img4" src="Images/dice6.png" alt= "image of 6 die" height = "112" width = "112"> </div>
+      <aside class = "rules"> <p class="h2">Rules</p> 
+      <ul>
+      <li> Each players rolls twice </li> 
+      <li> Highest roll wins</li>
+      <li> You cannot bet more then the bank amount </li>
+      <li> You can change bet at any time </li>
+      <li> If you run out of money you lose </li>
+      <li> Click end game to finish </li>
+      </ul> </p> </aside>
+      <div id ="info"></div>
+      <div id ="rollbox"><button id ="roll">Roll</button> <button id ="bet">Bet</button></div>
+      <div id ="bankbox"></div>
+      <div id ="betbox"></div>
+
+    </section>
+    
+    
+    
+    <footer class = "f1"> Colton Farbatuk copyright 2020. </footer>
+  </body>
+</html>

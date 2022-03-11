@@ -1,0 +1,135 @@
+html{
+   position:relative;
+   min-height:100%;
+   padding:10px;
+ }
+#h1{
+    
+    background-image:url('Images/fedor1edit.jpg'),url('Images/fedor2edit.jpg'),url('Images/fedor3edit.jpg'),linear-gradient(red,blue,white);
+    background-position:left,center,right,bottom;
+    background-repeat:no-repeat;
+    color:black;
+    font-family:"Times New Roman",serif;
+    text-align:left;
+    text-decoration:underline;
+    width:100%;
+    height:200px;
+    position:relative;
+    border: solid blue 10px;
+}
+body
+{
+  background-image:url('Images/bear1.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-bottom:100px;
+    margin:0px;
+    padding-top:0px;
+    min-height:100vh; 
+}
+.box1{
+      background-image:url('Images/pride.jpg');
+      background-size:cover;
+      position:relative;
+      right: 0px;
+      width:200px;
+      height:200px;
+      float:right;
+      padding:10px;
+      border:solid blue 10px;
+      font-family:'Trebuchet MS',Arial,sans-serif;
+      text-shadow: black 0px 0px 10px;
+      font-weight:bold;
+      color:crimson;  
+}
+.box2{
+  
+  width:600px;
+  height:250px;
+  padding:10px;
+  float:left;
+  left: 0px;
+  border:solid blue 10px;
+  background: linear-gradient(red,blue,white);
+  font-family:fantasy;
+}
+.box3{
+      z-index:-1;
+      position:relative;
+      float:right;
+      height:250px;
+      right:0px;
+      margin-right:100px;
+      width:200px;
+      border: solid blue 10px;
+      padding:10px;
+      background-image:url('Images/fedormug.jpg');
+      background-size:cover;   
+}
+
+.p1{
+    text-align:justify;
+    padding:10px;
+    color:black;
+  
+}
+
+
+ul.a{
+  list-style-type: circle;
+
+  
+}
+.tag{
+  position:relative;
+  text-align:justify;
+  color:black;
+  font-weight:bold;
+  bottom:0px;
+  left:15px;
+}
+
+
+.box4{
+  
+  width:800px;
+  height:250px;
+  padding:10px;
+  margin-bottom:100px;
+  margin-left:250px;
+  position:relative;
+  float:left;
+  border: solid blue 10px;
+  bottom:-25px;
+  background:linear-gradient(red,blue,white);
+}
+
+.par2{
+  
+  color:black;
+  font-family: 'Trebuchet MS',Arial,sans-serif;
+  float:left;
+  justify-content:left;
+  left:200px;
+  display:flex;
+}
+.fedorhighlight{
+  height:200px;
+  width:100%;
+  float:right;
+  overflow:auto;
+  border:red;
+}
+#foot1{
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  padding:10px;
+  color:red;
+  border: solid blue;
+  width:100%;
+  text-align:center;
+  font-style:italic;
+  background-color:black;
+}
